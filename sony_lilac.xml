@@ -13,6 +13,7 @@
   <project path="kernel/sony/lilac/drivers/staging/wlan-qc/qca-wifi-host-cmn" name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />
   <project path="kernel/sony/lilac/drivers/staging/wlan-qc/qcacld-3.0" name="vendor-qcom-opensource-wlan-qcacld-3.0" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />
 
+  <project path="system/bt" name="platform/system/bt" groups="pdk" remote="aosp" />
   <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="n-mr1" />
   <project path="device/sony/common" name="device-sony-common" groups="device" remote="touchbuntu" revision="halium-7.1" />
 
@@ -31,12 +32,7 @@
   <project path="vendor/oss/macaddrsetup" name="macaddrsetup" groups="device" remote="sony" revision="master" />
   <project path="vendor/oss/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
   <project path="vendor/oss/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />
-  <project path="packages/apps/ExtendedSettings" name="packages_apps_ExtendedSettings" groups="device" remote="sony" revision="master" />
-  <project path="packages/apps/FMRadio" name="packages-apps-FMRadio" groups="device" remote="sony" revision="master" />
   <project path="vendor/oss/json-c" name="json-c" groups="device" remote="sony" revision="master" />
-  <project path="vendor/oss/repo_update" name="repo_update" groups="device" remote="touchbuntu" revision="halium-7.1">
-    <linkfile src="repo_update.sh" dest="repo_update.sh" />
-  </project>
 
   <remove-project name="Halium/hybris-boot" />
   <project path="halium/hybris-boot" name="hybris-boot" remote="touchbuntu" revision="halium-7.1" />
