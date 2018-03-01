@@ -8,6 +8,7 @@
   <project path="device/sony/common-kernel" name="vendor-sony-kernel" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" clone-depth="1" />
   <remove-project name="android_hardware_qcom_camera" />
   <remove-project name="android_hardware_qcom_bt" />
+  <remove-project name="android_system_sepolicy" />
   <!--<project path="hardware/qcom/camera" name="camera" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />-->
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="touchbuntu" />
 
