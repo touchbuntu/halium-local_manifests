@@ -17,7 +17,6 @@
   <project path="kernel/sony/lilac/drivers/staging/wlan-qc/qcacld-3.0" name="vendor-qcom-opensource-wlan-qcacld-3.0" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />
 
   <project path="system/bt" name="platform/system/bt" groups="pdk" remote="aosp" />
-  <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="n-mr1" />
   <project path="device/sony/common" name="device-sony-common" groups="device" remote="touchbuntu" revision="halium-7.1" />
 
   <project path="device/sony/yoshino" name="device-sony-yoshino" groups="device" remote="sony" revision="n-mr1" />
