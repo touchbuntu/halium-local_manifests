@@ -7,7 +7,10 @@
   <project path="device/sony/common-headers" name="device-sony-common-headers" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />
   <project path="device/sony/common-kernel" name="vendor-sony-kernel" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" clone-depth="1" />
   <remove-project name="android_hardware_qcom_camera" />
+  <remove-project name="android_hardware_qcom_bt" />
   <!--<project path="hardware/qcom/camera" name="camera" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />-->
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="touchbuntu" />
+
   <project path="kernel/sony/lilac" name="kernel" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />
   <project path="kernel/sony/lilac/drivers/staging/wlan-qc/fw-api" name="vendor-qcom-opensource-wlan-fw-api" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />
   <project path="kernel/sony/lilac/drivers/staging/wlan-qc/qca-wifi-host-cmn" name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />
